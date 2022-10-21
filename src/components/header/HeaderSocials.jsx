@@ -6,14 +6,14 @@ import { AiFillFacebook } from 'react-icons/ai';
 const headerSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://twitter.com/preciousjame_z" target="_blank">
+      <a href="https://twitter.com/EyoElijah2" target="_blank">
         <AiFillTwitterSquare />{' '}
       </a>
-      <a href="https://github.com/onuigboprecious" target="_blank">
+      <a href="https://github.com/EyoElijah" target="_blank">
         {' '}
         <AiFillGithub />{' '}
       </a>
-      <a href="https://facebook.com/official.onuigboprecious/" target="_blank">
+      <a href="https://web.facebook.com/elijah.eyo.71/" target="_blank">
         {' '}
         <AiFillFacebook />{' '}
       </a>

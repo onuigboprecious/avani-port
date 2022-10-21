@@ -15,42 +15,29 @@ const Experience = () => {
             <GoVerified className='experience__details-icon'/>
             <div>
             <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>75%</small>
             </div>
             </article>
             <article className="experience___details">
             <GoVerified className='experience__details-icon'/>
              <div>
              <h4>CSS</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>75%</small>
               </div>
             </article>
             <article className="experience___details">
             <GoVerified className='experience__details-icon'/>
              <div>
              <h4>JavaScript</h4>
-              <small className='text-light'>intermidate</small>
+              <small className='text-light'>85%</small>
              </div>
             </article>
             <article className="experience___details">
             <GoVerified className='experience__details-icon'/>
           <div>
-          <h4>Bootstrap</h4>
-              <small className='text-light'>Experienced</small>
+          <h4>TypeScript</h4>
+              <small className='text-light'>50%</small>
           </div>
-            </article>
-            <article className="experience___details">
-            <GoVerified className='experience__details-icon'/>
-             <div>
-             <h4>UI kit</h4>
-              <small className='text-light'>intermidate</small>
-             </div>
-            </article>
-            <article className="experience___details">
-            <GoVerified className='experience__details-icon'/>
-              <div><h4>React</h4>
-              <small className='text-light'>Beginner</small>
-              </div>
             </article>
           </div>
         </div>
@@ -61,20 +48,26 @@ const Experience = () => {
             <article className="experience___details">
             <GoVerified className='experience__details-icon'/>
               <div><h4>SQL</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>70%</small>
               </div>
             </article>
             <article className="experience___details">
             <GoVerified className='experience__details-icon'/>
              <div>
               <h4>MongoDB</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>70%</small>
               </div>
             </article>
             <article className="experience___details">
               <GoVerified className='experience__details-icon'/>
-              <div><h4>CMS</h4>
-              <small className='text-light'>intermidate</small>
+              <div><h4>ExpressJS</h4>
+              <small className='text-light'>75%</small>
+              </div>
+            </article>
+            <article className="experience___details">
+              <GoVerified className='experience__details-icon'/>
+              <div><h4>NodeJS</h4>
+              <small className='text-light'>75%</small>
               </div>
             </article>
           </div>

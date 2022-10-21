@@ -2,55 +2,39 @@ import React from 'react';
 import './portfolio.css';
 import { AiFillGithub } from 'react-icons/ai';
 import img1 from '../../assets/portfolio1.png';
-import img2 from '../../assets/portfolio2.jpeg';
+import img2 from '../../assets/portfolio2.png';
 import img3 from '../../assets/portfolio3.png';
 import img4 from '../../assets/portfolio4.png';
-import img5 from '../../assets/portfolio5.png';
-import img6 from '../../assets/portfolio6.png';
 
 const data = [
   {
     id: 1,
     image: img1,
-    title: 'Blogging And News Plateform',
+    title: 'Hostel Booking App',
     // github: 'github.com',
-    demo: 'https://visblog.ng/',
+    // demo: 'https://',
   },
   {
     id: 2,
     image: img2,
-    title: 'Business Portfolio Website',
-    github: 'https://github.com/onuigboprecious/ginger-tarot',
-    demo: 'https://renegadereadings.com',
+    title: 'Parcel Delivery App',
+    // github: 'https://github.com/',
+    // demo: 'https://',
   },
   {
     id: 3,
     image: img3,
-    title: 'News And Lifestyle Blog',
+    title: 'Yelp Camp',
     // github: 'https://github.com',
-    demo: 'https://factual.com',
+    // demo: 'https://',
   },
   {
     id: 4,
     image: img4,
-    title: 'SPA For An Accounting Firm',
-    github: 'https://github.com/onuigboprecious/financial-',
-    demo: 'https://financial9.netlify.com/',
-  },
-  {
-    id: 5,
-    image: img5,
-    title: 'Multi Page Logistics Website',
-    // github: 'https://github.com',
-    demo: '#',
-  },
-  {
-    id: 6,
-    image: img6,
-    title: ' Podcast Streaming plateform',
-    github: 'https://github.com/onuigboprecious/app.podcast',
-    demo: '#',
-  },
+    title: 'Chat App',
+    // github: '',
+    // demo: 'https://',
+  }
 ];
 
 const Portfolio = () => {

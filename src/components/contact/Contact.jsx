@@ -11,7 +11,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
+           //         service id => "service_xfqw6x6"       While  key => "gSkxRZmFXKkZVTbas"    
     emailjs.sendForm('service_xfqw6x9', 'template_wzre12o', form.current, 'gSkxRZmFXKkZVTbas')
     e.target.reset()
 
@@ -32,20 +33,20 @@ const Contact = () => {
     <article className='contact__option'>
       <MdOutlineEmail  className='contact__option-icon'/>
       <h4>Email</h4>
-      <h5>Onuigboprecious47@gmail.com</h5>
-      <a href='mailto: onuigboprecious47@gmail.com' target='_blank' >Send a Message</a>
+      <h5>eyoelijah@gmail.com</h5>
+      <a href='mailto: eyoelijah@gmail.com' target='_blank' >Send a Message</a>
     </article>
     <article className='contact__option'>
       <BsMessenger  className='contact__option-icon' />
       <h4>Messenger</h4>
-      <h5>Onuigbo Precious</h5>
-      <a href='https://m.me/official.onuigboprecious' target='_blank'>Send a Message</a>
+      <h5>Eyo Elijah</h5>
+      <a href='https://m.me/elijah.eyo.71' target='_blank'>Send a Message</a>
     </article>
     <article className='contact__option'>
       <BsWhatsapp className='contact__option-icon' />
       <h4>Whatsapp</h4>
-      <h5>+234 810-260-8970</h5>
-      <a href='https://wa.me/+2348102608970' target='_blank' >Send a Message</a>
+      <h5>+234-8105-357-067</h5>
+      <a href='https://wa.me/+2348105357067' target='_blank' >Send a Message</a>
     </article>
   </div>
 {/* END OF CONTACTS  */}
